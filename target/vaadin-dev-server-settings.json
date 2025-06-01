@@ -1,0 +1,18 @@
+{
+  "frontendFolder": "/Users/a0k00ee/Documents/Ashu/learn/2025/ashu-fun-proj/vaadin-sleep-recommend/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/a0k00ee/Documents/Ashu/learn/2025/ashu-fun-proj/vaadin-sleep-recommend/frontend/generated/jar-resources",
+  "staticOutput": "target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "target/classes/META-INF/VAADIN/webapp/../config/",
+  "frontendBundleOutput": "target/classes/META-INF/VAADIN/webapp/",
+  "devBundleOutput": "/Users/a0k00ee/Documents/Ashu/learn/2025/ashu-fun-proj/vaadin-sleep-recommend/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/a0k00ee/Documents/Ashu/learn/2025/ashu-fun-proj/vaadin-sleep-recommend/src/main/dev-bundle/config",
+  "jarResourcesFolder": "/Users/a0k00ee/Documents/Ashu/learn/2025/ashu-fun-proj/vaadin-sleep-recommend/frontend/generated/jar-resources",
+  "generatedFlowImportsFolder": "target/frontend",
+  "themeName": "",
+  "clientServiceWorkerSource": "/Users/a0k00ee/Documents/Ashu/learn/2025/ashu-fun-proj/vaadin-sleep-recommend/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
