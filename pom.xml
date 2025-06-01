@@ -85,7 +85,7 @@
                 <artifactId>github-pages-plugin</artifactId>
                 <version>${vaadin.version}</version>
                 <configuration>
-                    <repository>your-username/vaadin-sleep-recommend</repository>
+                    <repository>ashgit1/sleep-recommend</repository>
                     <branch>gh-pages</branch>
                 </configuration>
             </plugin>
