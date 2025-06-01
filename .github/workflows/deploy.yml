@@ -27,12 +27,12 @@ jobs:
       - name: Build with Maven
         run: mvn clean package -DskipTests
       
-      - name: Install GitHub Pages plugin
-        run: mvn vaadin:install-github-pages-plugin
+      - name: Build Frontend
+        run: mvn vaadin:build-frontend
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: target/production/frontend
+          folder: target/frontend
           clean: true

@@ -80,15 +80,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>com.vaadin</groupId>
-                <artifactId>github-pages-plugin</artifactId>
-                <version>${vaadin.version}</version>
-                <configuration>
-                    <repository>ashgit1/sleep-recommend</repository>
-                    <branch>gh-pages</branch>
-                </configuration>
-            </plugin>
+
         </plugins>
     </build>
 </project>
