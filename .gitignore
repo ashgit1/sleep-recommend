@@ -1,0 +1,75 @@
+# Java
+*.class
+*.log
+*.iml
+.idea/
+.settings/
+.project
+.classpath
+*.jar
+*.war
+*.nar
+*.ear
+
+# Maven
+/target/
+!target/dependency/
+!target/maven-shared-archive-resources/
+!target/maven-archiver/
+!target/surefire-reports/
+!target/test-classes/
+!target/classes/
+!target/maven-status/
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vaadin
+frontend/generated/
+frontend/generated-flow-imports/
+frontend/generated-flow-types/
+frontend/generated-flow-types-external/
+frontend/generated-flow-types-internal/
+
+# Environment files
+.env
+.env.*
+!env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build output
+/dist
+/build
+/out
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
