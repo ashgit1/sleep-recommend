@@ -35,9 +35,10 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
       
-      - name: Deploy to Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to GitHub Pages
+        uses: actions/github-pages@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./target/frontend
-          commit_message: 'Deploy to GitHub Pages'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          path: ./target/frontend
+          message: 'Deploy to GitHub Pages'
